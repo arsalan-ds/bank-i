@@ -1,1 +1,1 @@
-# BankI-backend-app
+# BankI
