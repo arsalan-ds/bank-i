@@ -1,0 +1,98 @@
+.v-sheet {
+    .v-snack__wrapper {
+        border-radius: 10px !important;
+        margin: 15px !important;
+        min-height: 45px !important;
+    }
+}
+
+.notification-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.v-snack {
+    z-index: 1000000 !important;
+}
+
+.notification-content {
+    .notification-icon.success {
+        background-color: #3FBF62;
+    }
+
+    .notification-icon.error {
+        background-color: #EC4F2B;
+    }
+
+    .notification-icon.info {
+        background-color: #016DE6;
+    }
+
+    .notification-icon.warning {
+        background-color: #EE9401;
+    }
+
+}
+
+.v-snack.snack-type-success {
+    .v-snack__wrapper {
+        background-color: #EAF7EE !important;
+        border: 1px solid #A4DDB4 !important;
+    }
+}
+
+.v-snack.snack-type-error {
+    .v-snack__wrapper {
+        background-color: #FCECE9 !important;
+        border: 1px solid #F4C5BB !important;
+    }
+}
+
+.v-snack.snack-type-info {
+    .v-snack__wrapper {
+        background-color: #E4EFFA !important;
+        border: 1px solid #ABCDF1 !important;
+    }
+}
+
+.v-snack.snack-type-warning {
+    .v-snack__wrapper {
+        background-color: #FEF7E9 !important;
+        border: 1px solid #FDE0AF !important;
+    }
+}
+
+.notification-content {
+    .notification-message {
+        color: #484848 !important;
+    }
+
+    .notification-icon i {
+        width: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .notification-icon {
+        font-size: 25px !important;
+        padding: 5px;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+
+}
+
+.v-snack__btn.close-notification-button {
+    color: #484848;
+    margin-right: 10px;
+}
+
+.v-snack__content {
+    padding: 5px 7px !important;
+}
+
+.v-snack:not(.v-snack--absolute) {
+    height: auto !important;
+}
