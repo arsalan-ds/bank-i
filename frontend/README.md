@@ -1,4 +1,4 @@
-# ftd-backend-app
+# BankI-frontend-app
 
 ## Project setup
 ```
